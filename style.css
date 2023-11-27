@@ -45,7 +45,7 @@ h1{
 }
 
 .closeFullImgbtn{
-    position:absolute;
+    position:fixed;
     right:40px;
     top:20px;
     border:1px solid black;
@@ -54,7 +54,7 @@ h1{
     z-index: 101;
 }
 .nextbtn,.prevbtn {
-    position: absolute;
+    position: fixed;
     top: 50%;
     transform: translateY(-50%);
     background: rgba(0, 0, 0, 0.5);
